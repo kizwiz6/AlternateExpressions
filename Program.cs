@@ -10,14 +10,9 @@
             Console.WriteLine($"In {days} days, the Earth has rotated {rotations} time(s).");
         }
 
-        static double DaysToRotations(double days)
-        {
-            return days / 365;
-        }
+        static double DaysToRotations(double days) => days / 365;
 
-        static void Welcome(string planet)
-        {
-            Console.WriteLine($"Welcome to {planet}!");
-        }
+
+        static void Welcome(string planet) => Console.WriteLine($"Welcome to {planet}!");
     }
 }
